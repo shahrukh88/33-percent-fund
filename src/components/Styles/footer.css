@@ -1,0 +1,11 @@
+.footer__below{
+    background:rgb(22, 21, 21) ;
+    color:gray;
+    width: 100%;
+    text-align: center;
+    padding: 100px;
+    margin-top: 40px;
+}
+.footer__below span{
+
+}

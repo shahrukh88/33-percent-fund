@@ -1,0 +1,22 @@
+.privacy{
+    width: 80%;
+    margin: auto;
+    padding-top: 200px;
+   padding-bottom: 50px;
+
+}
+.privacy h1{
+    font-size: 24px;
+    color: rgb(25, 24, 24);
+}
+.privacy h2{
+    font-size: 22px;
+    margin-top: 20px;
+    color: rgb(120, 116, 116);
+}
+.privacy p{
+    font-size: 18px;
+    margin-top: 20px;
+    color: rgb(120, 116, 116);
+
+}

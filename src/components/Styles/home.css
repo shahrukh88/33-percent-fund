@@ -1,0 +1,178 @@
+.about__us{
+    width: 80%;
+    margin: auto;
+    padding-top: 200px;
+   padding-bottom: 50px;
+}
+.about__us h3{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    color: rgb(41, 41, 85);
+}
+
+.about__below{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.about__below__row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+    margin: auto;
+    width: 80%;
+}
+.about__below__col1{
+    flex-basis:49%;
+    text-align: left;
+    font-size: 17.5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.about__below__col1 h2{
+font-size: 22px;
+color: black;
+margin-top: 15px;
+}
+.about__below__col1 p{
+    font-size: 18px;
+    margin-top: 4px;
+    color: rgb(25, 24, 24);
+}
+.our__invest{
+    margin-top: 50px;
+    
+    background-image: url(./g1.jpg);
+    background-position:center ;
+    background-size: cover;
+    opacity: 1;
+    padding: 180px;
+    width: 100%;
+}
+.our__invest h1{
+   text-align: center;
+   color: white;
+   font-size: 50px;
+   font-weight: 400;
+}
+.our__investb{
+    margin-top: 50px;
+     background-image: url(./g2.jpg);
+    background-position:center ;
+    background-size: cover;
+    opacity: 1;
+    width: 100%;
+    padding: 180px;
+}
+.our__investb h1{
+   text-align: center;
+   color: white;
+   font-size: 50px;
+   font-weight: 400;
+}
+.our__investc{
+    margin-top: 50px;
+    background-image: url(./g3.jpg);
+    background-position:center ;
+    background-size: cover;
+    opacity: 1;
+    padding: 180px;
+    width: 100%;
+}
+.our__investc h1{
+   text-align: center;
+   color: white;
+   font-size: 50px;
+   font-weight: 400;
+}
+.our__investd{
+    margin-top: 50px;
+    background-image: url(./g4.jpg);
+    background-position:center ;
+    background-size: cover;
+    opacity: 1;
+    width: 100%;
+    padding: 180px;
+}
+.our__investd h1{
+   text-align: center;
+   color: white;
+   font-size: 50px;
+   font-weight: 400;
+
+}
+.our__invest_below{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+
+.our__invest_below__row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+.our__invest_below__col1{
+    flex-basis:20%;   
+}
+.our__invest_below__col1 img{
+    width: 100%;
+}
+.our__invest_below__col2{
+    flex-basis:77%;   
+}
+.our__invest_below__col2 h1{
+    font-size: 22px;
+}
+.our__invest_below__col2 h2{
+    font-size: 18px;
+    color: rgb(120, 116, 116);
+    margin-top: 8px;
+    font-style: italic;
+}
+.our__invest_below__col2 p{
+    max-width: 700px;
+    font-size: 17px;
+    color: rgb(120, 116, 116);
+
+    margin-top: 18px;
+}
+.line1{
+    max-width: 700px;
+    color: gray;
+}
+.carrer__below{
+    width: 60%;
+    margin: auto;
+    padding-top: 50px;
+}
+.carrer__below p{
+    font-size: 17px;
+    color: rgb(120, 116, 116);
+
+    margin-top: 18px;
+    margin-bottom: 88px;
+}
+@media only screen and (max-width: 770px) {
+
+    .our__invest h1,.our__investb h1,.our__investc h1,.our__investd h1{
+        font-size: 30px;
+     
+     }
+     .about__below__row,.our__invest_below__row{
+        flex-direction: column;
+}
+.our__invest_below__col2 h1{
+ margin-top: 15px;
+}
+}
+@media only screen and (max-width: 500px) {
+
+    .our__invest h1,.our__investb h1,.our__investc h1,.our__investd h1{
+        font-size: 20px;
+     
+     }
+}
